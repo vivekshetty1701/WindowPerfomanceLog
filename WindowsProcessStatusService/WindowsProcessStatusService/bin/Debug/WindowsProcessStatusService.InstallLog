@@ -1,0 +1,29 @@
+﻿Installing assembly 'D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe
+   logfile = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.InstallLog
+Installing service WindowsProcessStatus...
+Creating EventLog source WindowsProcessStatus in log Application...
+Rolling back assembly 'D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe
+   logfile = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.InstallLog
+Restoring event log to previous state for source WindowsProcessStatus.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe
+   logfile = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.InstallLog
+Installing service WindowsProcessStatus...
+Service WindowsProcessStatus has been successfully installed.
+Creating EventLog source WindowsProcessStatus in log Application...
+Committing assembly 'D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.exe
+   logfile = D:\ObjView\WindowsProcessStatusService\WindowsProcessStatusService\bin\Debug\WindowsProcessStatusService.InstallLog
